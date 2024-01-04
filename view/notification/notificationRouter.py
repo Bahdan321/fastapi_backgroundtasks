@@ -1,5 +1,5 @@
 from other.notification import notify
-from schemas import Message
+from view.notification.schemas import Message
 
 from fastapi import APIRouter, BackgroundTasks
 from asyncio import sleep
